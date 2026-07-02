@@ -1,0 +1,35 @@
+name: GitHub Actions Test
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Print Current Directory
+        run: pwd
+
+      - name: List Files
+        run: ls -la
+
+      - name: Display Repository Files
+        run: |
+          echo "Repository Contents:"
+          ls
+
+      - name: Display Current User
+        run: whoami
+
+      - name: Display Linux Version
+        run: uname -a
+
+      - name: Print Date
+        run: date
+
+      - name: Print Success Message
+        run: echo "GitHub Actions is working successfully!"
