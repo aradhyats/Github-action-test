@@ -21,7 +21,7 @@ jobs:
 
       - name: Display Repository Files
         run: |
-          echo "Repository Contents:"
+          echo "Repository Content:"
           ls
 
       - name: Display Current User
@@ -38,7 +38,7 @@ jobs:
 
       - name: Display Repository Files Again
         run: |
-          echo "Repository Contents:"
+          echo "Repository :"
           ls
 
       - name: Print Success Message
