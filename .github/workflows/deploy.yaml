@@ -32,7 +32,8 @@ jobs:
         run: date
      
       - name: runing some commad
-	run: echo "Hi i am Aradhya TS"
+		run: | 
+		echo "Hi i am Aradhya TS"
 
 
       - name: Print Success Message
