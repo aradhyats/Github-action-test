@@ -30,9 +30,9 @@ jobs:
 
       - name: Print Date
         run: date
-     
-      - name: runing some command
-	      run: echo "Hi i am Aradhya TS"
+
+      - name: Running some command
+        run: echo "Hi I am Aradhya TS"
 
       - name: Display Repository Files Again
         run: |
@@ -41,4 +41,3 @@ jobs:
 
       - name: Print Success Message
         run: echo "GitHub Actions is working successfully!"
-
