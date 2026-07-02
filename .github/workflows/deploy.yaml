@@ -31,9 +31,5 @@ jobs:
       - name: Print Date
         run: date
      
-      - name: runing some commad
-	run: echo "Hi i am Aradhya TS"
-
-
-      - name: Print Success Message
-        run: echo "GitHub Actions is working successfully!"
+      - name: runing some command
+	      run: echo "Hi i am Aradhya TS"
